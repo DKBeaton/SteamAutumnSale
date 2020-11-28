@@ -10,8 +10,68 @@
     "single player": true,
     "multiplayer": false,
     "reviews": "Very Positive",
-    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/capsule_616x353.jpg?t=160009254"
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/capsule_616x353.jpg?t=160009254",
+    "original price": 43.99,
+    "sale price": 30.79
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "release": "2015-05-18",
+    "description": "As war rages on throughout the Northern Realms, you take on the greatest contract of your life — tracking down the Child of Prophecy, a living weapon that can alter the shape of the world.",
+    "developer": "CD PROJEKT RED",
+    "publisher": "CD PROJEKT RED",
+    "user tags": ["Open World", "RPG", "Story Rich", "Atmospheric"],
+    "system": ["Windows"],
+    "single player": true,
+    "multiplayer": false,
+    "reviews": "Overwhelmingly Postive",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg?t=1602588729",
+    "original price": 55.99,
+    "sale price": 16.79
+  },
+  {
+    "name": "Frostpunk",
+    "release": "2018-04-24",
+    "description": "Frostpunk is the first society survival game. As the ruler of the last city on Earth, it is your duty to manage both its citizens and its infrastructure. What decisions will you make to ensure your society's survival? What will you do when pushed to breaking point? Who will you become in the process?",
+    "developer": "11 bit studios",
+    "publisher": "11 bit studios",
+    "user tags": ["Survival", "City Builder", "Strategy", "Post-apocalyptic"],
+    "system": ["Windows"],
+    "single player": true,
+    "multiplayer": false,
+    "reviews": "Very Positive",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/capsule_616x353.jpg?t=1603983228",
+    "original price": 33.99,
+    "sale price": 11.55
+  },
+  {
+    "name": "Carrion",
+    "release": "2020-07-23",
+    "description": "CARRION is a reverse horror game in which you assume the role of an amorphous creature of unknown origins, stalking and consuming those that imprisoned you.",
+    "developer": "Phobia Game Studio",
+    "publisher": "Devolver Digital",
+    "user tags": ["Villain Protagonist", "Action", "Indie", "Pixel Graphics"],
+    "system": ["Windows", "Mac", "Steam"],
+    "single player": true,
+    "multiplayer": false,
+    "reviews": "Very Positive",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/953490/capsule_616x353.jpg?t=1604081514",
+    "original price": 22.79,
+    "sale price": 17.09
+  },
+  {
+    "name": "",
+    "release": "",
+    "description": "",
+    "developer": "",
+    "publisher": "",
+    "user tags": ["", "", "", ""],
+    "system": [""],
+    "single player": false,
+    "multiplayer": false,
+    "reviews": "",
+    "image": "",
+    "original price": 0,
+    "sale price": 0
   }
-
-
 ]
