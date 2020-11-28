@@ -7,6 +7,10 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/016d819f40.js"
+    crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -101,8 +105,96 @@
   <!-- Overall background pattern -->
     
   <div class="hero-section">
-    <div class="navigation"></div>
-      <div class="hero-title-container">
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item store">
+          <span class="nav-text">Your Store</span>
+          <i class="fas fa-sort-down"></i>
+          <ul class="dropdown-menu">
+            <li class="submenu-item">Home</li>
+            <li class="submenu-item">Preferences</li>
+            <li class="submenu-item">Community Recommendations</li>
+            <li class="submenu-item">Interactive Recommender</li>
+            <li class="submenu-item">Discovery Queue</li>
+            <li class="submenu-item">Popular Among Friends</li>
+            <li class="submenu-item">Steam Curators</li>
+            <li class="submenu-item">Recently Updated</li>
+            <li class="submenu-item">Followed Games & Software</li>
+            <li class="submenu-item sepeator"><hr>Because You Love</li>
+            <li class="submenu-item">JRPG</li>
+            <li class="submenu-item">City Builder</li>
+            <li class="submenu-item">Third Person</li>
+            <li class="submenu-item">Crafting</li>
+            <li class="submenu-item">Free to Play</li>
+            <li class="submenu-item sepeator"><hr></li>
+            <li class="submenu-item">More Tags for You...</li>
+          </ul>
+        </li>
+        <li class="nav-item browse">
+          <span class="nav-text">Browse</span>
+          <i class="fas fa-sort-down"></i>
+          <div class="dropdown-menu multi-column">
+            <ul>
+              <li class="submenu-item">Free to Play</li>
+              <li class="submenu-item">Early Access</li>
+              <li class="submenu-item">Demos</li>
+              <li class="submenu-item">Controller Friendly</li>
+              <li class="submenu-item">For PC Cafes</li>
+              <li class="submenu-item">Remote Play</li>
+              <li class="submenu-item sepeator"><hr>Virtual Reality</li>
+              <li class="submenu-item">VR Games & Experiences</li>
+              <li class="submenu-item">VR Hardware</li>
+              <li class="submenu-item sepeator"><hr>Platforms</li>
+              <li class="submenu-item">Mac OS X</li>
+              <li class="submenu-item">SteamOS + Linux</li>
+              <li class="submenu-item sepeator"><hr>Additional Content</li>
+              <li class="submenu-item">Soundtracks</li>
+            </ul>
+            <div class="separator"></div>
+            <ul>
+              <li class="submenu-item sepeator">Game Genres</li>
+              <li class="submenu-item">Action</li>
+              <li class="submenu-item">Adventure</li>
+              <li class="submenu-item">Casual</li>
+              <li class="submenu-item">Indie</li>
+              <li class="submenu-item">Massively Multiplayer</li>
+              <li class="submenu-item">Racing</li>
+              <li class="submenu-item">RPG</li>
+              <li class="submenu-item">Simulation</li>
+              <li class="submenu-item">Sports</li>
+              <li class="submenu-item">Strategy</li>
+              <li class="submenu-item sepeator"><hr></li>
+              <li class="submenu-item">More Popular Tags...</li>
+            </ul>
+            <div class="separator"></div>
+            <ul>
+              <li class="submenu-item sepeator">Software</li>
+              <li class="submenu-item">Animation & Modeling</li>
+              <li class="submenu-item">Audio Production</li>
+              <li class="submenu-item">Design & Illustration</li>
+              <li class="submenu-item">Education</li>
+              <li class="submenu-item">Game Development</li>
+              <li class="submenu-item">Photo Editing</li>
+              <li class="submenu-item">Utilities</li>
+              <li class="submenu-item">Video Production</li>
+              <li class="submenu-item">Web Publishing</li>
+            </ul>
+          </div>
+        </li>
+        <li class="nav-item">Points Shop</li>
+        <li class="nav-item">News</li>
+        <li class="nav-item">Steam Labs</li>
+        <li class="nav-item search">
+          <div class="input-container">
+            <input type="text" placeholder="search the store">
+            <div class="search-icon">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+      <div class="hero-container">
         <svg class="title-logo" width="200px" height="100px" viewBox= "0 0 500 100">
           <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
           <text width="500">
