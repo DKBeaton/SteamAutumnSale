@@ -40,13 +40,13 @@ window.onload = async () => {
 
   for (let i = 0; i < 14; i++) {
     // Randomaize game
-    let random = getRandomInt(MAX_GAMES);
+    //let random = getRandomInt(MAX_GAMES);
 
     // Calculate grid size
     let gridSize = i < 4 ? 'small' : i < 7 ? 'large' : i < 11 ? 'small' : 'large';
 
     // Add game into grid container
-    addGridItem(games[random], gridSize);
+    addGridItem(games[i], gridSize);
   }
 
 
@@ -81,6 +81,11 @@ function addGridItem(game, gridSize) {
   // Add inner HTML data
   newElement.innerHTML = `
   <img src="${game.image}" alt="">
+  <div class="price-description">
+    <div class="price-percentage">${Math.ceil((game.saleprice - game.originalprice)/game.originalprice * 100)}%</div>
+    <div class="old-price">CDN$ ${game.originalprice}</div>
+    <div class="new-price">CDN$ ${game.saleprice}</div>
+  </div>
   `;
 
   gridContainer.appendChild(newElement);
