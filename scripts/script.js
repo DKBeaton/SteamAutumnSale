@@ -15,7 +15,7 @@ window.onload = async () => {
   // Wait for fetch to complete
   await fetchGames;
 
-  // Randomaize game
+  // Randomize game
   let arr = [];
   while (arr.length < 14) {
     let random = getRandomInt(MAX_GAMES);
