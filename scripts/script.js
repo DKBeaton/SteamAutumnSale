@@ -1,75 +1,37 @@
-// on windows load
-// Loop 14 times
-// random function into games .json 
-
 // on hover or mouse enter
 // add tooltip like steams
 // need lookup function into games.json
 
 const games = [];
 const gridContainer = document.querySelector('.grid-container');
-const MAX_GAMES = 8;
-
-// let fetchData = async (url) => {
-//   let response = await fetch(url);
-//   let result = await response.json();
-//   console.log(result);
-//   games.push(...result);
-// }
-
-// function fetchGames(url) {
-//   const response = await fetch(url);
-//   let result = await response.json();
-//   games.push(...result);
-//   return result;
-// }
+const MAX_GAMES = 15;
 
 const fetchGames = fetch('./json/games.json')
 .then(response => response.json())
 .then(data => games.push(...data));
 
-// fetch('./json/games.json')
-// .then(response => response.json())
-// .then(data => games.push(...data));
-
 // On page load, load in games data
 window.onload = async () => {
-
   // Wait for fetch to complete
   await fetchGames;
 
-  for (let i = 0; i < 14; i++) {
-    // Randomaize game
-    //let random = getRandomInt(MAX_GAMES);
+  // Randomaize game
+  let arr = [];
+  while (arr.length < 14) {
+    let random = getRandomInt(MAX_GAMES);
+    let i = arr.length;
 
-    // Calculate grid size
-    let gridSize = i < 4 ? 'small' : i < 7 ? 'large' : i < 11 ? 'small' : 'large';
+    if (arr.indexOf(random) === -1) {
+      arr.push(random);
 
-    // Add game into grid container
-    addGridItem(games[i], gridSize);
+      // Calculate grid size
+      let gridSize = i < 4 ? 'small' : i < 7 ? 'large' : i < 11 ? 'small' : 'large';
+
+      // Add game into grid container
+      addGridItem(games[random], gridSize);
+    }
   }
-
-
 }
-
-// window.addEventListener('load', function () {
-
-//   fetchGames('./json/games.json')
-//   .then (data => games.push(...data));
-//   console.log(games);
-
-//   for (let i = 0; i < 3; i++) {
-//     // Randomaize game
-//     let random = getRandomInt(MAX_GAMES);
-
-//     // Calculate grid size
-//     let gridSize = i < 4 ? 'small' : i < 7 ? 'large' : i < 11 ? 'small' : 'large';
-
-//     //console.log(games[random]);
-//     // Add game into grid container
-//     addGridItem(games[random], gridSize);
-//   }
-// })
 
 // Add dom grid item to grid container
 function addGridItem(game, gridSize) {
