@@ -11,8 +11,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1222140/capsule_616x353.jpg?t=160009254",
-    "original price": 43.99,
-    "sale price": 30.79
+    "originalprice": 43.99,
+    "saleprice": 30.79
   },
   {
     "name": "The Witcher 3: Wild Hunt",
@@ -26,8 +26,8 @@
     "multiplayer": false,
     "reviews": "Overwhelmingly Postive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/capsule_616x353.jpg?t=1602588729",
-    "original price": 55.99,
-    "sale price": 16.79
+    "originalprice": 55.99,
+    "saleprice": 16.79
   },
   {
     "name": "Frostpunk",
@@ -41,8 +41,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/323190/capsule_616x353.jpg?t=1603983228",
-    "original price": 33.99,
-    "sale price": 11.55
+    "originalprice": 33.99,
+    "saleprice": 11.55
   },
   {
     "name": "Carrion",
@@ -56,8 +56,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/953490/capsule_616x353.jpg?t=1604081514",
-    "original price": 22.79,
-    "sale price": 17.09
+    "originalprice": 22.79,
+    "saleprice": 17.09
   },
   {
     "name": "Stardew Valley",
@@ -71,8 +71,8 @@
     "multiplayer": true,
     "reviews": "Overwhelmingly Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/capsule_616x353.jpg?t=1595525376",
-    "original price": 16.99,
-    "sale price": 11.89
+    "originalprice": 16.99,
+    "saleprice": 11.89
   },
   {
     "name": "GreedFall",
@@ -86,8 +86,8 @@
     "multiplayer": false,
     "reviews": "Mostly Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/606880/capsule_616x353.jpg?t=1604502881",
-    "original price": 64.99,
-    "sale price": 25.99
+    "originalprice": 64.99,
+    "saleprice": 25.99
   },
   {
     "name": "Destroy All Humans!",
@@ -101,8 +101,8 @@
     "multiplayer": false,
     "reviews": "Overwhelmingly Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/803330/capsule_616x353.jpg?t=1606513853",
-    "original price": 29.99,
-    "sale price": 23.99
+    "originalprice": 29.99,
+    "saleprice": 23.99
   },
   {
     "name": "Sekiro: Shadows Die Twice - GOTY Edition",
@@ -116,8 +116,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/capsule_616x353.jpg?t=1603904569",
-    "original price": 79.99,
-    "sale price": 51.99
+    "originalprice": 79.99,
+    "saleprice": 51.99
   },
   {
     "name": "Jurassic World Evolution",
@@ -131,8 +131,8 @@
     "multiplayer": false,
     "reviews": "Very positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/648350/capsule_616x353.jpg?t=1595319162",
-    "original price": 50.49,
-    "sale price": 12.62
+    "originalprice": 50.49,
+    "saleprice": 12.62
   },
   {
     "name": "Farming Simulator 19",
@@ -146,8 +146,8 @@
     "multiplayer": true,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/787860/capsule_616x353.jpg?t=1606468848",
-    "original price": 25.99,
-    "sale price": 18.19
+    "originalprice": 25.99,
+    "saleprice": 18.19
   },
   {
     "name": "Darkest Dungeon",
@@ -161,8 +161,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/262060/capsule_616x353.jpg?t=1598289046",
-    "original price": 27.99,
-    "sale price": 6.99
+    "originalprice": 27.99,
+    "saleprice": 6.99
   },
   {
     "name": "Transport Fever 2",
@@ -176,8 +176,8 @@
     "multiplayer": false,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1066780/capsule_616x353.jpg?t=1600200993",
-    "original price": 51.49,
-    "sale price": 34.49
+    "originalprice": 51.49,
+    "saleprice": 34.49
   },
   {
     "name": "The Forest",
@@ -191,8 +191,38 @@
     "multiplayer": true,
     "reviews": "Very Positive",
     "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/capsule_616x353.jpg?t=1590522045",
-    "original price": 22.79,
-    "sale price": 11.39
+    "originalprice": 22.79,
+    "saleprice": 11.39
+  },
+  {
+    "name": "Spelunky 2",
+    "release": "2020-09-29",
+    "description": "Spelunky 2 builds upon the unique, randomized challenges that made the original a roguelike classic, offering a huge adventure designed to satisfy players old and new. Meet the next generation of explorers as they find themselves on the Moon, searching for treasure and missing family.",
+    "developer": ["Mossmouth", "BlitWorks"],
+    "publisher": ["Mossmouth"],
+    "user tags": ["Platformer", "Action Roguelike", "2D Platformer", "Co-op"],
+    "system": ["Windows"],
+    "single player": true,
+    "multiplayer": true,
+    "reviews": "Very Positive",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/418530/capsule_616x353.jpg?t=1603213157",
+    "originalprice": 22.79,
+    "saleprice": 20.51
+  },
+  {
+    "name": "Northgard",
+    "release": "2018-03-07",
+    "description": "Northgard is a strategy game based on Norse mythology in which you control a clan of Vikings vying for the control of a mysterious newfound continent.",
+    "developer": ["Shiro Games"],
+    "publisher": ["Shiro Games"],
+    "user tags": ["City Builder", "RTS", "Strategy", "Colony Sim", "Survival"],
+    "system": ["Windows", "Mac", "Steam"],
+    "single player": true,
+    "multiplayer": true,
+    "reviews": "Very Positive",
+    "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/466560/capsule_616x353.jpg?t=1600354430",
+    "originalprice": 33.99,
+    "saleprice": 13.59
   },
   {
     "name": "",
@@ -206,8 +236,8 @@
     "multiplayer": false,
     "reviews": "",
     "image": "",
-    "original price": 0,
-    "sale price": 0
+    "originalprice": 0,
+    "saleprice": 0
   },
   {
     "name": "",
@@ -221,37 +251,7 @@
     "multiplayer": false,
     "reviews": "",
     "image": "",
-    "original price": 0,
-    "sale price": 0
-  },
-  {
-    "name": "",
-    "release": "",
-    "description": "",
-    "developer": [""],
-    "publisher": [""],
-    "user tags": ["", "", "", ""],
-    "system": [""],
-    "single player": false,
-    "multiplayer": false,
-    "reviews": "",
-    "image": "",
-    "original price": 0,
-    "sale price": 0
-  },
-  {
-    "name": "",
-    "release": "",
-    "description": "",
-    "developer": [""],
-    "publisher": [""],
-    "user tags": ["", "", "", ""],
-    "system": [""],
-    "single player": false,
-    "multiplayer": false,
-    "reviews": "",
-    "image": "",
-    "original price": 0,
-    "sale price": 0
+    "originalprice": 0,
+    "saleprice": 0
   }
 ]
