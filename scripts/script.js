@@ -85,14 +85,3 @@ function getRandomInt(max) {
 }
 
 
-
-{/* <div class="game-tooltip">
-<div class="tooltip-title"></div>
-<div class="tooltip-release-date"></div>
-<div class="tooltip-description"></div>
-<div class="tooltip-reviews"></div>
-<div class="tooltip-system"></div>
-<div class="tooltip-tags"></div>
-</div> */}
-
-
