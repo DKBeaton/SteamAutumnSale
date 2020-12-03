@@ -50,7 +50,34 @@ function addGridItem(game, gridSize) {
   </div>
   `;
 
+  // Setup tooltip
+  // Or mouseover
+  newElement.addEventListener('mouseenter', gameToolTip(game, newElement));
+
+  // Add element to parent
   gridContainer.appendChild(newElement);
+}
+
+function gameToolTip(game, elem) {
+  // Create element
+  const newElement = document.createElement('div');
+  newElement.classList.add('game-tooltip');
+
+  //Parse user tags
+  game.usertags.forEach((tag, i) => game.usertags[i] = `<div class="user-tag">${tag}</div>`)
+
+  // Add inner HTML data
+  newElement.innerHTML = `
+  <div class="tooltip-title">${game.name}</div>
+  <div class="tooltip-release-date">${game.release}</div>
+  <div class="tooltip-description">${game.description}</div>
+  <div class="tooltip-reviews">Overall user reviews:<br><span class="tooltip-review">${game.reviews}</span></div>
+  <div class="tooltip-system">${game.system.join(', ')}</div>
+  <div class="tooltip-tags-title">User tags:</div>
+  <div class="tooltip-tags">${game.usertags.join('')}</div>`;
+
+   // Add element to parent
+   elem.appendChild(newElement);
 }
 
 function getRandomInt(max) {
@@ -58,5 +85,14 @@ function getRandomInt(max) {
 }
 
 
+
+{/* <div class="game-tooltip">
+<div class="tooltip-title"></div>
+<div class="tooltip-release-date"></div>
+<div class="tooltip-description"></div>
+<div class="tooltip-reviews"></div>
+<div class="tooltip-system"></div>
+<div class="tooltip-tags"></div>
+</div> */}
 
 
