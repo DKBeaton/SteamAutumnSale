@@ -1,7 +1,3 @@
-// on hover or mouse enter
-// add tooltip like steams
-// need lookup function into games.json
-
 const games = [];
 const gridContainer = document.querySelector('.grid-container');
 const MAX_GAMES = 15;
