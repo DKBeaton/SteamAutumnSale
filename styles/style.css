@@ -396,10 +396,18 @@ hr {
 }
 
 .btn {
-  padding: 5px 10px;
+  padding: 8px 12px;
+  font-size: 14px;
   background: linear-gradient( to bottom, #a4d007 5%, #536904 95%);
+  color: #D2E885;
   margin-top: 10px;
   cursor: pointer;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background: #a4d007;
+  color: #fff;
 }
 
 /* Steam Awards */
