@@ -525,7 +525,7 @@ hr {
   opacity: 0;
   display: none;
   background: linear-gradient( to bottom, #e3eaef 5%, #c7d5e0 95%);
-  width: 360px;
+  width: 300px;
   pointer-events: none;
   padding: 1rem;
   font-size: 12px;
@@ -567,6 +567,8 @@ hr {
 
 .tooltip-tags {
   display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .user-tag {
@@ -577,10 +579,6 @@ hr {
   flex: 1 0 auto;
   color: #fff;
 }
-
-
-
-
 
 /* Animation */
 
