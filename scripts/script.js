@@ -78,6 +78,26 @@ function gameToolTip(game, elem) {
 
    // Add element to parent
    elem.appendChild(newElement);
+
+   // Check if element will be off screen
+  elem.addEventListener('mouseenter', function(e) {
+    // Get inner element
+    let child = e.target.querySelector('.game-tooltip');
+
+    let rect = child.getBoundingClientRect();
+    let w = window.innerWidth;
+    let h = window.innerHeight;
+
+    // Check if right edge is offscreen
+    let rightEdgeInRange = rect.right >= 0 && rect.right <= w;
+
+    // Change display position
+    if (!rightEdgeInRange) {
+      child.style.left = '-305px';
+    } else {
+      child.style.left = 'calc(100% + 5px);';
+    }
+  });
 }
 
 function getRandomInt(max) {
