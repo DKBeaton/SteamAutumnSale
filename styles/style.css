@@ -308,6 +308,7 @@ hr {
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 .mh {
@@ -407,7 +408,6 @@ hr {
   max-width: 1200px;
   width: 100%;
   margin: 3rem auto;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .content {
@@ -429,6 +429,7 @@ hr {
   cursor: pointer;
   margin-top: 15rem;
   transition: transform ease-in-out 0.3s;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
 }
 
 .steam-awards:hover {
@@ -491,6 +492,7 @@ hr {
   background-color: rgba(0,0,0,0.85);
   cursor: pointer;
   border: 1px solid #000;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .item:hover {
