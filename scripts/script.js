@@ -60,7 +60,10 @@ function gameToolTip(game, elem) {
   newElement.classList.add('game-tooltip');
 
   //Parse user tags
-  game.usertags.forEach((tag, i) => game.usertags[i] = `<div class="user-tag">${tag}</div>`)
+  game.usertags.forEach((tag, i) => game.usertags[i] = `<div class="user-tag">${tag}</div>`);
+
+  // Parse systems
+  game.system.forEach((tag, i) => game.system[i] = (game.system[i] === 'Windows') ? `<i class="fab fa-windows"></i>` : (game.system[i] === 'Mac') ? `<i class="fab fa-apple"></i>` : `<i class="fab fa-steam-square"></i>`);
 
   // Add inner HTML data
   newElement.innerHTML = `
@@ -68,7 +71,7 @@ function gameToolTip(game, elem) {
   <div class="tooltip-release-date">${game.release}</div>
   <div class="tooltip-description">${game.description}</div>
   <div class="tooltip-reviews">Overall user reviews:<br><span class="tooltip-review">${game.reviews}</span></div>
-  <div class="tooltip-system">System: ${game.system.join(', ')}</div>
+  <div class="tooltip-system">${game.system.join(' ')}</div>
   <div class="tooltip-tags-title">User tags:</div>
   <div class="tooltip-tags">${game.usertags.join('')}</div>`;
 

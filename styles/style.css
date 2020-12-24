@@ -580,6 +580,13 @@ hr {
   color: #fff;
 }
 
+i.fab {
+  font-size: 1.2rem;
+  color: #1c1e20;
+  margin-right: 3px;
+}
+
+
 /* Featured Franchises */
 
 .featured-container {
