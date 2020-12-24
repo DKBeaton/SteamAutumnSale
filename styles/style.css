@@ -473,13 +473,6 @@ hr {
 
 /* Grid Container */
 
-/* .random-games {
-  max-width: 1200px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-} */
-
 .grid-container {
   display: grid;
   justify-content: center;
