@@ -81,8 +81,7 @@ function gameToolTip(game, elem) {
     let child = e.target.querySelector('.game-tooltip');
 
     let rect = child.getBoundingClientRect();
-    let w = window.innerWidth;
-    let h = window.innerHeight;
+    let w = document.documentElement.clientWidth;
 
     // Check if right edge is offscreen
     let rightEdgeInRange = rect.right >= 0 && rect.right <= w;
@@ -90,10 +89,18 @@ function gameToolTip(game, elem) {
     // Change display position
     if (!rightEdgeInRange) {
       child.style.left = '-305px';
-    } else {
-      child.style.left = 'calc(100% + 5px);';
-    }
+    }  
   });
+
+  elem.addEventListener('mouseleave', function(e) {
+    // Get inner element
+    let child = e.target.querySelector('.game-tooltip');
+
+    // Reset left position back to default
+    child.style.left = '';
+  });
+
+
 }
 
 function getRandomInt(max) {
