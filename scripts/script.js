@@ -72,7 +72,7 @@ function gameToolTip(game, elem) {
   <div class="tooltip-release-date">${game.release}</div>
   <div class="tooltip-description">${game.description}</div>
   <div class="tooltip-reviews">Overall user reviews:<br><span class="tooltip-review">${game.reviews}</span></div>
-  <div class="tooltip-system">${game.system.join(', ')}</div>
+  <div class="tooltip-system">System: ${game.system.join(', ')}</div>
   <div class="tooltip-tags-title">User tags:</div>
   <div class="tooltip-tags">${game.usertags.join('')}</div>`;
 
